@@ -1,6 +1,8 @@
 import os
 from sys import argv
 from time import sleep
+from abot import app
+
 
 def create_db():
     """
@@ -29,8 +31,5 @@ if __name__ == "__main__":
         print("Creando base de datos...")
         create_db()
         print("Base de datos creada con éxito!!!")
-
-
-    from abot import app
 
     app.run()
