@@ -1,0 +1,103 @@
+:root {
+  --primary: #ff7a33;
+  --primary-accent: #ff5900;
+  --secondary: #83af9b;
+  --secondary-accent: #e5cd57;
+}
+
+/* Generales  */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+main {
+  padding-bottom: 12rem;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: auto 0 !important;
+  width: 100vw;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+  margin-bottom: 0.5rem;
+}
+
+.orange {
+  background: var(--primary);
+}
+
+.materialize-textarea {
+  font-size: 1rem !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 1px 0 0 var(--primary) !important;
+  -webkit-box-shadow: 0 1px 0 0 var(--primary) !important;
+}
+
+.materialize-textarea:focus {
+  border-color: var(--primary-accent) !important;
+  box-shadow: 0 1px 0 0 var(--primary-accent) !important;
+  -webkit-box-shadow: 0 1px 0 0 var(--primary-accent) !important;
+}
+
+/* Específicos del footer */
+._input-field {
+  background-color: white !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  border: 3px solid var(--primary-accent) !important;
+}
+
+._input-submit {
+  background: var(--primary-accent) !important;
+}
+
+._input-field,
+._input-submit {
+  box-shadow: 1px 1px 5px black !important;
+}
+
+.university-reference {
+  display: block;
+  text-align: center;
+  width: 100% !important;
+  padding: 0.5rem;
+  padding-top: 0;
+}
+
+/* Específicos del navbar */
+.brand-image {
+  padding: 0.5rem !important;
+  display: block;
+  width: 4rem;
+  height: 4rem !important;
+}
+
+/* Específicos del main */

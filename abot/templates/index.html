@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Abot - Chat </title>
+
+    <!-- TODO: Faltan metatags para búsqueda en internet -->
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{url_for('static', filename='/img/favicons/apple-icon-57x57.png')}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{url_for('static', filename='/img/favicons/apple-icon-60x60.png')}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{url_for('static', filename='/img/favicons/apple-icon-72x72.png')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{url_for('static', filename='/img/favicons/apple-icon-76x76.png')}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{url_for('static', filename='/img/favicons/apple-icon-114x114.png')}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_for('static', filename='/img/favicons/apple-icon-120x120.png')}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{url_for('static', filename='/img/favicons/apple-icon-144x144.png')}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{url_for('static', filename='/img/favicons/apple-icon-152x152.png')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static', filename='/img/favicons/apple-icon-180x180.png')}}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{url_for('static', filename='/img/favicons/android-icon-192x192.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename='/img/favicons/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{url_for('static', filename='/img/favicons/favicon-96x96.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename='/img/favicons/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{url_for('static', filename='/img/favicons/manifest.json')}}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{url_for('static', filename='/img/favicons/ms-icon-144x144.png')}}">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/bubble_chat.css')}}">
+</head>
+</body>
+<!-- OVERLAY -->
+<div id="overlay">
+    <div class="preloader-wrapper big active">
+        <img class="brand-logo brand-image responsive-img center" src="{{url_for('static', filename='/img/Anahuac.webp')}}" />
+    </div>
+    <h4>Universidad Anáhuac Cancún</h4>
+    <small>Hecho con Materialize CSS</small>
+</div>
+
+<!-- NAV -->
+<div class="navbar-fixed">
+    <nav class="orange">
+        <div class="nav-wrapper valign-wrapper">
+            <img class="brand-logo brand-image responsive-img center" src="{{url_for('static', filename='/img/Anahuac.webp')}}" />
+        </div>
+    </nav>
+</div>
+<!-- CONTENT -->
+<main class="container">
+
+    <div class="chat-container" id="chatContainer">
+        <center><small>Hola usuario! Escribe un mensaje para inciar la conversación</small  ></center>
+    </div>
+
+</main>
+<!-- FOOTER -->
+<footer class="orange">
+    <form id="messageForm">
+        <div class="container row valign-wrapper">
+            <div class="input-field col s9 _input-field">
+                <textarea id="icon_prefix" class="materialize-textarea flow-text" maxlength="255" name="message" required></textarea>
+                <label for="icon_prefix">Escribe tu mensaje aquí</label>
+            </div>
+
+            <div class="input-field col s3">
+                <button class="btn waves-effect waves-light _input-submit" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+    </form>
+    <small class="university-reference">Universidad Anáhuac Cancún</small>
+</footer>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="{{url_for('static', filename='/js/chat_client.js')}}"></script>
+</body>
+
+</html>

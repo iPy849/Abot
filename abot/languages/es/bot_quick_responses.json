@@ -1,0 +1,34 @@
+[
+  {
+    "message": ["hola", "hey", "alo"],
+    "answers": [
+      "Hola, en qué puedo servirle?",
+      "Hola, cómo puedo ayudarle el día de hoy?",
+      "Hola, en qué tengo el placer de ayudarlo?"
+    ]
+  },
+  {
+    "message": ["buenos días", "buen día"],
+    "answers": [
+      "Buenos días, en qué puedo servirle?",
+      "Buenos días, cómo puedo ayudarle el día de hoy?",
+      "Buenos días, en qué tengo el placer de ayudarlo?"
+    ]
+  },
+  {
+    "message": ["buenas tardes", "buena tarde"],
+    "answers": [
+      "Buenos tardes, en qué puedo servirle?",
+      "Buenos tardes, cómo puedo ayudarle el día de hoy?",
+      "Buenos tardes, en qué tengo el placer de ayudarlo?"
+    ]
+  },
+  {
+    "message": ["buenas noches", "buena noche"],
+    "answers": [
+      "Buenas noches, en qué puedo servirle?",
+      "Buenas noches, cómo puedo ayudarle el día de hoy?",
+      "Buenas noches, en qué tengo el placer de ayudarlo?"
+    ]
+  }
+]

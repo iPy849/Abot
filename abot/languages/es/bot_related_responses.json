@@ -1,0 +1,137 @@
+[
+  {
+    "keywords": ["rectoría", "rector", "Jesús", "Quirce", "Andrés"],
+    "response": "Para contactar con el rector de la Universidad Anáhuac Cancún, el padre Jesús Quirce Andrés, puede hacerlo a través de Ibis Arturo Juárez Delgado (asistente) escribiendo un email a ibis.juarez@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 138",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["admisión", "admisiones", "beca", "becas", "Mariana"],
+    "response": "Para contactar con la coordinadora de becas de la Universidad Anáhuac Cancún, Mariana Martín Medina, puede hacerlo escribiendo un email a mariana.martin@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 227",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["vicerrectoría", "vicerrector", "finanzas", "finanza", "administración", "becas", "Jorge"],
+    "response": "Para contactar con el vicerrector de la Universidad Anáhuac Cancún, Mtro. Jorge J. García, puede hacerlo a través de Harol Nicolas Rojas Burguete (asistente) escribiendo un email a harol.rojas@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 199",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["académica", "académico", "Aldo"],
+    "response": "Para contactar con el director de Operaciones Académicas de la Universidad Anáhuac Cancún, Mtro. Aldo Chávez Cerezo, puede hacerlo escribiendo un email a aldo.chavez@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 140",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["vinculación", "desarrollo", "institucional", "Fernando"],
+    "response": "Para contactar con el coordinador de Vinculación Estratégica de la Universidad Anáhuac Cancún, Mtro. Fernando Barquera Brito, puede hacerlo escribiendo un email a fernando.barquera@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 233",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["internacional", "internacionales", "internacionalización", "Bernardo"],
+    "response": "Para contactar con el director de la Oficina Internacional y la Escuela Internacional de Gobierno de la Universidad Anáhuac Cancún, Dr. Bernardo Rangel Sada, puede hacerlo escribiendo un email a bernardo.rangel@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 109",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["deporte", "deportes", "Bernardo"],
+    "response": "Para contactar con el coordinador de Deporte de la Universidad Anáhuac Cancún, Ing. Edgar Torres Gómez, puede hacerlo escribiendo un email a edgar.torres@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 265",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["comuniación", "institucional", "Maria"],
+    "response": "Para contactar con la coordinadora de Comunicación Institucional de la Universidad Anáhuac Cancún, Lic. Maria Fernanda Fernández Delgado, puede hacerlo escribiendo un email a ffernandez@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 211",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["administración", "escolar", "Beatriz"],
+    "response": "Para contactar con la coordinadora de Administración Escolar de la Universidad Anáhuac Cancún, Beatriz Sarabia Solís, puede hacerlo escribiendo un email a sescolares.cancun@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 223",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["relación", "relaciones", "estudiantes", "estudiantiles", "Luis"],
+    "response": "Para contactar con el coordinador de Relaciones Estudiantiles de la Universidad Anáhuac Cancún, Mtro. Luis Adrián Sánchez Cano, puede hacerlo escribiendo un email a luis.sanchez@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 221",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["atención", "posgrados", "Eugenia"],
+    "response": "Para contactar con el Atención de Posgrados de la Universidad Anáhuac Cancún, puede hacerlo escribiendo un email a posgrados@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando las extensiones 252 y 254. También te puede contactar con la directora escribiendo a la dirección de correo eugenia.sansores@anahuac.mx.",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["crédito", "créditos", "cobranza", "Miguel", "Dania", "Maria"],
+    "response": "Para contactar con el área de Créditos y Cobranza de la Universidad Anáhuac Cancún, puede hacerlo escribiendo un email a cualquiera de las siguientes direcciones miguel.ramon@anahuac.mx o dania.unda@anahuac.mx, también puede llamar al número telefónico de la universidad :university_phone usando las extensiones 255, 206 o 318",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["atención", "preuniversitaria", "Bernardo", "Shubert", "Romario", "Ícaro", "Gabriela"],
+    "response": [
+      "Para contactar con el área de Atención Preuniversitaria de la Universidad Anáhuac Cancún, puede hacerlo escribiendo a los siguientes contactos:", 
+      "Mtro. Bernardo Garza Rodríguez (Director de Atención Preuniversitaria) bernardo.garza@anahuac.mx",
+      "Equipo local:", 
+      "Shubert Collí (Coordinador de Promoción Local), shubert.colli@anahuac.mx",
+      "Romario Beltrán (Asesor Preuniversitario Local), romario.beltranza@anahuac.mx",
+      "Ícaro Dendena (Asesor Preuniversitario Local), icaro.dendenaco@anahuac.mx",
+      "Gabriela García (Asesor Preuniversitario Local), gabriela.garciag@anahuac.mx",
+      "Elsa Débora Gutierrez (Asesor Preuniversitario Local), elsa.gutierrezte@anahuac.mx",
+      "Equipo Nacional:",
+      "Zofía Husleber (Coordinadora de Promoción Nacional), zofia.hausleber@anahuac.mx",
+      "Aline Valdez (Asesor Preuniversitario Nacional), aline.valdez@anahuac.mx",
+      "Karen Lopez Contreras (Asesor Preuniversitario Nacional), karen.lopezco@anahuac.mx",
+      "Equipo Internacional:",
+      "Alejandro Perozo (Coordinador de Promoción Internacional), alejandro.perozo@anahuac.mx",
+      "Ivana Hernández (Asesora Preuniversitaria Internacional), ivana.hernandezmo@anahuac.mx",
+      "Carlos Baquedadno (Asesor Preuniversitario Internacional), carlos.baquedano@anahuac.mx",
+      "Greta Wences (Asesora Preuniversitaria Internacional), greta.wences@anahuac.mx"
+    ]
+  },
+  {
+    "keywords": ["atención", "foráneos", "CAF", "María"],
+    "response": "Para contactar con la coodinadora del Centro de Atención a Foráneos (CAF) de la Universidad Anáhuac Cancún, Lic. María Elena Rivero Carrasco, puede hacerlo escribiendo un email a elena.carrasco@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 156",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["vicerrectoría", "académica", "CAF", "Tomasz", "Ena"],
+    "response": "Para contactar con el vicerrector de Vicerrectoría Académica de la Universidad Anáhuac Cancún, Dr. Tomasz Andrzej Bogdanski, puede hacerlo escribiendo un email a Ena Alpuin Acuña (asistente) a la dirección de correo ena.alpuin@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 249",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["formación", "integral", "Jorge"],
+    "response": "Para contactar con el director de Formación Integral de la Universidad Anáhuac Cancún, Mtro. Jorge Alarcón Alfaro, puede hacerlo escribiendo un email a jorge.alarcon@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 100",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["oficina", "internacional", "Andrea", "Renate", "Teres"],
+    "response": "Para contactar con el área de Oficina Internacional de la Universidad Anáhuac Cancún, puede hacerlo escribiendo un email a cualquiera de las siguientes direcciones asistenteinter.uac@anahuac.mx (Coordinadora de Movilidad entrante) o asistenteinter.uac@anahuac.mx (Coordinadora de Movilidad saliente), también puede llamar al número telefónico de la universidad :university_phone usando las extensiones 180 o 157",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["división", "liderazgo", "humanidades", "Antonio"],
+    "response": "Para contactar con el director de la División de Liderazgo y Humanidades de la Universidad Anáhuac Cancún, Mtro. Antonio Aldrette Elizondo, puede hacerlo escribiendo un email a antonio.aldrette@anahuac.mx"
+  },
+  {
+    "keywords": ["contraloría", "Azor"],
+    "response": "Para contactar con el contralor de Contraloría de la Universidad Anáhuac Cancún, Lic. Azor López Herrera, puede hacerlo escribiendo un email a azor.lopez@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 230",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["compromiso", "servicio", "social", "María"],
+    "response": "Para contactar con la coordinadora del área de Compromiso y Servicio Social de la Universidad Anáhuac Cancún, Lic. María Goretti Gamboa Tamay, puede hacerlo escribiendo un email a goretti.gamboata@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 266",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["capital", "humano", "Julio"],
+    "response": "Para contactar con el director del área de Capital Humano de la Universidad Anáhuac Cancún, Julio César de León Guzmán, puede hacerlo escribiendo un email a julio.deleongu@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 319",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["caja", "Thalía", "Marilú"],
+    "response": "Para contactar con el área de Caja de la Universidad Anáhuac Cancún, puede hacerlo escribiendo un email a thalia.sanchezdu@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 233",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["compras", "Verónica"],
+    "response": "Para contactar con la jefa del área de Compras de la Universidad Anáhuac Cancún, Verónica Hipólito Nicolás, puede hacerlo escribiendo un email a veronica.hipolito@anahuac.mx o marcando al número telefónico de la universidad :university_phone usando la extensión 238",
+    "require-data": ["university_phone"]
+  },
+  {
+    "keywords": ["contacto", "contactar"],
+    "response": "Para contactar a los representantes de las diferentes áreas de la universidad puedes acudir a nuestro directorio: https://www.anahuac.mx/cancun/directorio"
+  }
+]

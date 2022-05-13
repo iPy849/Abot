@@ -1,0 +1,120 @@
+.chat-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+main p {
+    position: relative !important;
+    max-width: 80%;
+    margin-top: 2.5rem;
+}
+
+main p.left-bubble {
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    color: white;
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 5px 5px var(--secondary);
+    font-family: sans-serif;
+    width: fit-content;
+    align-self: flex-start;
+  }
+  
+  main p.left-bubble:after {
+    transform: translatey(0px);
+    -webkit-animation: float2 3s ease-in-out infinite;
+            animation: float2 3s ease-in-out infinite;
+    content: ".";
+    font-weight: bold;
+    -webkit-text-fill-color: var(--primary);
+    box-shadow: 5px 5px var(--secondary);
+    text-align: left;
+    font-size: 3rem;
+    width: 2.5rem;
+    height: 1rem;
+    line-height: 30px;
+    border-radius: 11px;
+    background-color: var(--primary);
+    position: absolute;
+    display: block;
+    bottom: -1.8rem;
+    left: 0;
+    z-index: -2;
+  }
+
+  main p.right-bubble {
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    color: var(--primary-accent);
+    background-color: white;
+    border: 3px solid var(--primary);
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 5px 5px var(--primary);
+    font-family: sans-serif;
+    width: fit-content;
+    align-self: flex-end;
+  }
+  
+  main p.right-bubble:after {
+    transform: translatey(0px);
+    -webkit-animation: float2 3s ease-in-out infinite;
+            animation: float2 3s ease-in-out infinite;
+    content: ".";
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px var(--primary);
+    box-shadow: 5px 5px var(--primary);
+    text-align: end;
+    font-size: 3rem;
+    width: 2.5rem;
+    height: 1rem;
+    line-height: 30px;
+    border-radius: 11px;
+    border: 3px solid var(--primary);
+    background-color: white;
+    position: absolute;
+    display: block;
+    bottom: -1.8rem;
+    right: 0;
+    z-index: -2;
+  }
+  
+  @-webkit-keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-3px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-3px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
