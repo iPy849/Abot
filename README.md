@@ -19,6 +19,9 @@ Aplicación de chat automático con respuestas preprogramadas. El programa tiene
 - Correr el archivo run.py
 
 ## Recursos:
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+- [Materialize CSS Framework](https://materializecss.com/)
 - [SQLite3](https://www.sqlite.org/index.html)
 - [Listado original de Verbos](https://raw.githubusercontent.com/asosab/esp_verbos/master/esp_verbos.json)
 - [Black formatter](https://black.readthedocs.io/en/stable/) para Python
+- Las burbujas de texto se inspiraron en [estas](https://codepen.io/kirstenallen/pen/MWwPYYm) y más ejemplos [aquí](https://freefrontend.com/css-speech-bubbles/)
